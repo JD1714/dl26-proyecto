@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+cliente/.web/
+cliente/.states/
+cliente/assets/external/
+data/
+*.ipynb_checkpoints
+uploaded_files/
+.states/
+cliente/reflex.lock/
