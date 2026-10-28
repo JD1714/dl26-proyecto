@@ -17,10 +17,10 @@ load_dotenv(find_dotenv())   # lee API_URL del archivo .env de la raíz del repo
 API_URL = os.getenv("API_URL", "http://localhost:8000").rstrip("/")
 
 # TEXTOS QUE LOS ESTUDIANTES DEBEN ADAPTAR
-TITULO = "Mi clasificador"
+TITULO = "Clasificador de Toxicidad"
 DESCRIPCION = (
-    "Describa aquí, en lenguaje llano, qué hace el modelo, qué entradas acepta "
-    "y qué no debe esperarse de él (las limitaciones de la model card)."
+    "Modelo afinado para detectar y clasificar toxicidad en texto. "
+    "Recibe texto en lenguaje natural y predice la clase con sus probabilidades."
 )
 
 # identidad visual del curso (colores tomados del logo)
